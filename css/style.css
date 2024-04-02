@@ -1,19 +1,10 @@
 * {
-    background-color: #ffbc58;
+    background-color: #f57e27;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     scroll-behavior: smooth;
-}
-
-.header{
-  
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
-    margin-bottom: 10px;
 }
 
 .topnav {
@@ -42,3 +33,52 @@
     background-color: #04AA6D;
     color: white;
   }
+
+  .header{
+    font-size: 4vmax;;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.breif-Info{
+  margin-bottom:0;
+  margin-left: 20vw;
+  margin-right: 20vw;
+  padding-top: 20px; 
+  padding-bottom: 20px;
+  background-color: white;
+  border-style: solid;
+  border-radius: 20px;
+  border-color: #333;
+  text-align: center;
+  
+}
+.personal-info {
+  margin-bottom: 0;
+  margin-left: 20vw;
+  margin-right: 20vw;
+  padding-top: 20px; 
+  padding-bottom: 20px;
+  background-color: white !important;
+  border-style: solid;
+  border-radius: 20px;
+  border-color: #333;
+  text-align: center;
+}
+
+
+
+  .parallax {
+    margin-top: 0;
+    background-image: url("../photos/rit.jpg");
+    min-height: 300px;
+    background-attachment: fixed;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: 100vw; 
+    background-size: 100vw;
+
+    
+}
