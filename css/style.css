@@ -80,3 +80,30 @@ padding: 1%;
   border-radius: 20px;
 
 }
+
+  .row{
+  padding-top: 3%;
+  content: "";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  align-items: flex-end;
+  
+  }
+  .column {
+    width: 33%;
+    box-sizing: border-box;
+    text-align: center;
+    }
+
+  .contact-photos{
+    width: 30%;
+    border-radius: 10px;
+  
+  }
+  .subtext {
+    margin-top: 6px;
+    font-size: 14px;
+    font-weight: bolder; 
+}
