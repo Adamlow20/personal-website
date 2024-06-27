@@ -100,8 +100,12 @@ padding: 1%;
   .contact-photos{
     width: 30%;
     border-radius: 10px;
-  
   }
+
+  .contact-photos:hover {
+    filter: brightness(.4); 
+  }
+  
   .subtext {
     margin-top: 6px;
     font-size: 14px;
