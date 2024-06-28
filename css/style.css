@@ -7,32 +7,7 @@
     scroll-behavior: smooth;
 }
 
-.topnav {
-    overflow: hidden;
-    background-color: #333;
-    border-bottom: 3px solid white;
-  }
-  
-  .topnav a {
-    float: left;
-    color: #DCDCDC;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-    background-color: #333;
-   
-  }
-  
-  .topnav a:hover {
-    background-color: #ddd;
-    color: black;
-  }
-  
-  .topnav a.active {
-    background-color: #04AA6D;
-    color: white;
-  }
+
 
   .header{
     font-size: 4vmax;;
@@ -110,4 +85,16 @@ padding: 1%;
     margin-top: 6px;
     font-size: 14px;
     font-weight: bolder; 
+}
+
+.project-section {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s ease-in, transform 0.7s ease-in;
+  padding: 7%;
+}
+
+.project-section.active {
+  opacity: 1;
+  transform: translateY(0);
 }
