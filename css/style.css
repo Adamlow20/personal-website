@@ -10,7 +10,7 @@
 
 
   .header{
-    font-size: 4vmax;;
+    font-size: 6vmax;
     display:flex;
     justify-content: center;
     align-items: center;
@@ -50,13 +50,13 @@ background-color: white;
 font-weight:bold;
 padding: 1%;
 }
+
 .headshot{
   width: 50%;
   border-radius: 20px;
-
 }
 
-  .row{
+.row{
   padding-top: 3%;
   content: "";
   display: flex;
@@ -64,30 +64,30 @@ padding: 1%;
   align-items: center;
   width: 100%;
   align-items: flex-end;
-  
-  }
-  .column {
+}
+
+.column {
     width: 33%;
     box-sizing: border-box;
     text-align: center;
-    }
-
-  .contact-photos{
-    width: 30%;
-    border-radius: 10px;
-  }
-
-  .contact-photos:hover {
-    filter: brightness(.4); 
-  }
-  
-  .subtext {
-    margin-top: 6px;
-    font-size: 14px;
-    font-weight: bolder; 
 }
 
-.project-section {
+.contact-photos{
+    width: 30%;
+    border-radius: 10px;
+}
+
+.contact-photos:hover {
+    filter: brightness(.4); 
+}
+  
+.subtext {
+  margin-top: 6px;
+  font-size: 14px;
+  font-weight: bolder; 
+}
+
+.project-section{
   opacity: 0;
   transform: translateY(20px);
   transition: opacity 0.5s ease-in, transform 0.7s ease-in;
@@ -97,4 +97,19 @@ padding: 1%;
 .project-section.active {
   opacity: 1;
   transform: translateY(0);
+  
+}
+
+.project-title{
+  /* the last number changes opacity 0-1*/
+   background-color: rgba(255, 255, 255, 0.60);
+ }
+.project-info{
+ /* the last number changes opacity 0-1*/
+  background-color: rgba(255, 255, 255, 0.60);
+}
+
+.project-highlights {
+  font-weight: bold; /* Example of making the text slightly darker */
+  background-color: rgba(255, 255, 255, 0); /* Same background color and opacity */
 }
