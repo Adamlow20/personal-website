@@ -111,12 +111,12 @@ padding: 1%;
 }
 
 .project-highlights {
-  font-weight: bold; /* Example of making the text slightly darker */
+  font-weight: bold; 
   background-color: rgba(255, 255, 255, 0); /* Same background color and opacity */
 }
 .project-list{
   background-color: rgba(255, 255, 255, .6);
-  padding-left: 10%; /* Adjust this value as needed */
+  padding-left: 10%; 
 }
 .project-list-info{
   background-color: rgba(255, 255, 255,0);
