@@ -2,31 +2,35 @@
 <html>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/navBar.css">
-    
+    <script src="scripts/sideBar.js"></script>
     <head>
         <title >About Me</title>   
     </head>
     
     <body>
-        <nav class="topnav">
-            <a href="index.html" class="navbar__links" id="home-page">Home</a>
-            <a href="about_me.html" class="navbar__links" id="about-page">About Me</a>
-            <a href="projects.html" class="navbar__links" id="about-page">Projects</a>
-            <a href="contact.html" class="navbar__links" id="contact-page">Contact Info</a>
-        </nav>
+        <div id="mySidebar" class="sidebar">
+            <a href='#'class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="index.html">Home</a>
+            <a href="about_me.html">About</a>
+            <a href="projects.html">Projects</a>
+            <a href="contact.html">Contact Info</a>
+        </div>
+        <button class="openbtn" onclick="openNav()">&#9776;</button>
         <h1 class ="header" >About Me</h1>
         
         <div class ="about">
             <div class="section">
-                <img class="headshot" src="photos/hockey.jpg" alt="Hockey Image">
-                <p class="about-text" > Hello! I’m Adam Low, a third-year Software Engineering student at Rochester Institute of Technology. I currently serve as co-president of the club hockey team and have  made the Dean’s List every semester.</p>
+                <img class="hockeyshot" src="photos/hockey.jpg" alt="Hockey Image">
             </div>
             <div class="section">
-                <p class="about-text"> My journey into software engineering began in high school, where I discovered my passion for coding and problem-solving. This interest led me to pursue a Bachelor's Degree in Software Engineering at RIT, where I’ve deepened my skills in Java, Python, and software design methodologies.</p>
+                <p class="about-text" >Hello! I’m Adam Low, a third-year Software Engineering student at Rochester Institute of Technology. I currently serve as co-president of the club hockey team and have  made the Dean’s List every semester.</p>
+            </div>
+            <div class="section">
+                <p class="about-text">My journey into software engineering began in high school, where I discovered my passion for coding and problem-solving. This interest led me to pursue a Bachelor's Degree in Software Engineering at RIT, where I’ve deepened my skills in Java, Python, and software design methodologies.</p>
             </div>
                 
             <div class="section">
-                <p class="about-text"> Looking ahead, I’m eager to secure a Co-Op position to further apply my knowledge in real-world settings and contribute to innovative projects. I’m committed to advancing technology and enhancing user experiences through creative solutions.</p>
+                <p class="about-text">Looking ahead, I’m eager to secure a Co-Op position to further apply my knowledge in real-world settings and contribute to innovative projects. I’m committed to advancing technology and enhancing user experiences through creative solutions.</p>
             </div>
 
             

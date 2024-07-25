@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang='en'>
-
+<script src="scripts/sideBar.js"></script>
 <script src='scripts/projectScroll.js'></script>
 <link rel='stylesheet' href='css/style.css'>
 <link rel='stylesheet' href='css/navBar.css'>
@@ -12,12 +12,14 @@
     
 </head>
 <body>
-    <nav class='topnav'>
-        <a href='index.html' class='navbar__links' id='home-page'>Home</a>
-        <a href='about_me.html' class='navbar__links' id='about-page'>About Me</a>
-        <a href='projects.html' class='navbar__links' id='projects-page'>Projects</a>
-        <a href='contact.html' class='navbar__links' id='contact-page'>Contact Info</a>
-    </nav>
+    <div id="mySidebar" class="sidebar">
+        <a href='#'class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="index.html">Home</a>
+        <a href="about_me.html">About</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact Info</a>
+    </div>
+    <button class="openbtn" onclick="openNav()">&#9776;</button>
     <h1 class='header'>Projects</h1>
     <div>
         <section id='project1' class='project-section'>
