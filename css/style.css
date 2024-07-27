@@ -36,9 +36,9 @@ body{
   
 }
 .personal-info {
-  margin-bottom: 0;
-  margin-left: 20vw;
-  margin-right: 20vw;
+ 
+  margin-left: 10vw;
+  margin-right: 10vw;
   padding-top: 20px; 
   padding-bottom: 20px;
   background-color: rgba(255, 255, 255, 0.70);
@@ -60,9 +60,11 @@ padding: 1%;
   }
 
 .headshot{
-  width: 20vw; /* Adjust width relative to viewport width */
-    height: auto;
-  border-radius: 20px;
+  width: auto; /* Adjust width relative to viewport width */
+  height: 80vh;
+  clip-path: polygon(17% 0, 80% 0, 100% 100%, 17% 100%);
+
+
 }
 .hockeyshot{
   width: 50%;
