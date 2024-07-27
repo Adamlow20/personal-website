@@ -35,40 +35,13 @@ body{
   text-align: center;
   
 }
-.personal-info {
- 
-  margin-left: 10vw;
-  margin-right: 10vw;
-  padding-top: 20px; 
-  padding-bottom: 20px;
-  background-color: rgba(255, 255, 255, 0.70);
-  border-style: solid;
-  border-radius: 20px;
-  border-color: #333;
-  text-align: center;
-  
-}
-
-.generalText{background-color: rgba(255, 255, 255, 0.0);
-font-weight:bold;
-padding-top: 30vh;
-margin: 0;
-text-align: left
-
-}
 
 .indexText{background-color: rgba(255, 255, 255, 0.0);
   font-weight:bold;
   padding: 1%;
   }
 
-.headshot{
-  width: auto; /* Adjust width relative to viewport width */
-  height: 80vh;
-  clip-path: polygon(17% 0, 80% 0, 100% 100%, 17% 100%);
 
-
-}
 .hockeyshot{
   width: 50%;
   height: auto;
@@ -189,12 +162,6 @@ text-align: left
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
   
-}
-
-
-.personal-info {
-  display: flex; 
-  align-items: flex-start; 
 }
 
 

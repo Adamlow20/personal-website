@@ -1,0 +1,29 @@
+.personal-info {
+ 
+    margin-left: 10vw;
+    margin-right: 10vw;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.70);
+    text-align: left;
+    display: flex; 
+    align-items: left; 
+  }
+
+  .generalText{
+    background-color: rgba(255, 255, 255, 0.0);
+    font-weight:bold;
+    padding-top: 30vh;
+    padding-right: 12vw;
+    margin: 0;
+    text-align: left
+
+    }
+
+    .headshot{
+        width: auto; 
+        height: 80vh;
+        clip-path: polygon(0 0, 70% 0, 100% 100%, 0 100%);
+        align-items: left; 
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+      }
